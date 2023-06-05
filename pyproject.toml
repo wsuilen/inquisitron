@@ -3,14 +3,19 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "inquisitron_aifij"
+name = "inquisitron"
 version = "0.0.1"
-authors = [
-  { name="Willem Suilen", email="contact@willemsuilen.com" },
-]
+authors = []
 description = "A package that will help journalist to investigate the content of large files."
 readme = "README.md"
 requires-python = ">=3.7"
+dependencies = [
+    "langchain",
+    "openai",
+    "tiktoken",
+    "chromadb",
+    "google-search-results"
+]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
