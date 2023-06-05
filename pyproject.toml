@@ -14,7 +14,8 @@ dependencies = [
     "openai",
     "tiktoken",
     "chromadb",
-    "google-search-results"
+    "google-search-results",
+    "pandas",
 ]
 classifiers = [
     "Programming Language :: Python :: 3",
